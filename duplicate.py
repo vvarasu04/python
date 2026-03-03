@@ -20,3 +20,10 @@ for i in nums:
         unique.append(i)
 print(unique)"""
 
+val=[1,2,3,4,3,2,5,6]
+unq=[]
+for i in val:
+    
+    if i not in unq:
+        unq.append(i)
+print(unq)

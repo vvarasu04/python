@@ -32,7 +32,7 @@ print(deleted)
 print(cities) 
 """
 #Remove by value
-cities=["chennai","madurai","chennai","coimbatore","trichy","salem"]
+"""cities=["chennai","madurai","chennai","coimbatore","trichy","salem"]
 city_del="chennai"
 cities.remove(city_del)
 print(cities)
@@ -46,4 +46,17 @@ print(cities)
 
 #Reverse
 cities.reverse()
-print(cities)
+print(cities)"""
+
+
+
+print("Enter list of numbers . Enter Z to exit")
+Alist=[]
+while True:
+    inp=input()
+    if(inp=='z'):
+        break
+    Alist.append(inp)
+print(Alist)
+        
+    
