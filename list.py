@@ -50,13 +50,12 @@ print(cities)"""
 
 
 
-print("Enter list of numbers . Enter Z to exit")
+"""print("Enter list of numbers . Enter Z to exit")
 Alist=[]
 while True:
     inp=input()
     if(inp=='z'):
         break
     Alist.append(inp)
-print(Alist)
-        
-    
+print(Alist)"""
+

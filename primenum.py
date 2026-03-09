@@ -1,7 +1,14 @@
-n=int(input("enter a number"))
-prime=""
-def prime(n):
-    for i in range(1,n+1):
-        if(n%i==0):
-            print("none prime")
-print(prime(n))
+# Program to check if a number is prime
+
+num = int(input("Enter a number: "))
+
+# Prime numbers are greater than 1
+if num > 1:
+    for i in range(2, num):
+        if num % i == 0:
+            print(num, "is not a prime number")
+            break
+    else:
+        print(num, "is a prime number")
+else:
+    print(num, "is not a prime number")

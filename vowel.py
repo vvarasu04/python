@@ -6,4 +6,7 @@ for letter in word:
     if letter in vowels:
         count += 1
 
-print(f"Total vowels: {count}")
+print(count)
+
+
+
