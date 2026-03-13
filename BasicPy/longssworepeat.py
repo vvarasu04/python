@@ -4,9 +4,11 @@ longest=""
 for i in range(len(sentence)):
     substr=''
     for j in range(i,len(sentence)):
-        if i not in substr:
-            substr=substr+i
+        if sentence[j] not in substr:
+            substr=substr+sentence[j]
+        else:
+            break
 if len(substr)>len(longest):
     longest=substr
-    print(longest)
+print(longest)
             
