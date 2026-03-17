@@ -48,12 +48,23 @@ for i in range(rows,0,-1):
     print(" "*(rows-i)+"* " *(i))
 print("")"""
 
-rows=5
+"""rows=5
 num=1
 for i in range(0,rows):
     for j in range(i):
         print(num,end="  ")
         num+=1
         
-    print(" ")
+    print(" ")"""
     
+number=[3,4,5,-2,-1,2,8,0,4]
+negative=[]
+positive=[]
+for num in number:
+    if(num>=0):
+        positive.append(num)
+    else:
+        negative.append(num)
+    
+result=positive+negative
+print(result)
